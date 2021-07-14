@@ -453,6 +453,8 @@ tbody tr p{
 
 
   @media only screen and (max-width:688px) {
+
+
        .top-bar{
            width: 100%;
            height: auto;
@@ -555,9 +557,6 @@ tbody tr p{
        
     }
     .highlight{
-        width: 100%;
-        width: 129px;
-        height: auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -565,9 +564,17 @@ tbody tr p{
         margin: 0px;
     }
      .highlights-details .highlights-title{
-         width: 100%;
-        font-size: 40px;
-    
+         width: 70%;
+        font-size: 30px;
+        margin: 0px;
+        
+    }
+    .highlights-details .highlights-description p{
+        width: 80%;
+        font-size: 15px;
+    }
+    .highlights-details{
+        width: 100%;
         
     }
 
@@ -578,14 +585,15 @@ tbody tr p{
         flex-direction: column;
         justify-content: center;
         margin: 10px;
+        margin-top: 50px;
     
     }
       .highlight-image{
           width: 100%;
       }
     .highlight-image img{
-        width: 390px;
-        height: 350px;
+        width: 340px;
+        height: 250px;
     }
      .ranking{
          margin: 0px;
@@ -597,7 +605,7 @@ tbody tr p{
      .ranking-info{
         
          width: 100%;
-         margin-bottom: 70px;
+         margin-bottom:100px;
      }
 
 
