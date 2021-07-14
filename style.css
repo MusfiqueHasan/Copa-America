@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-bar{
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+}
+
+nav{
+    height: 44px;
+    padding: 42px 121px 121px 156px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav .menu .all-menu{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px 16px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+nav .menu .first-menu{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0px 18px 0px 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav .menu{
+    width: 590px;
+    height: 24px;
+}
+.menu .icon{
+    color: #FFFFFF;
+    display: none;
+}
+nav .button{
+    width: 123px;
+    height: 44px; 
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+.home{
+    display: flex;
+}
+.home-info{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left: 156px;
+    /* align-items: center; */
+}
+.home-info .home-title{
+    width: 485px;
+    height: 230px;
+    font-size: 59px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    
+}
+
+.home-info .home-button{
+    width: 168px;
+    height: 44px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home-button span{
+    margin-right: 8px;
+}
+
+.home-button i{
+
+    color: #FFFFFF;
+}
+
+.home-image{
+    width: 50%;
+}
+
+.home-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 70px;
+    transition: transform 1s ease-in-out;
+}
+
+.home-image:hover img{
+    transform: translateX(-50px);
+}
+
+/* club section */
+
+main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.cards{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.cards .card{
+    padding: 15px;
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.card .inner-card{
+    width: 300px;
+height: 426px;
+}
+
+.inner-card img{
+    width: 300px;
+height: 256px;
+}
+
+.inner-card .card-details{
+    margin-top: 16px;
+    width: 300px;
+height: 154px;
+}
+
+.inner-card .card-title{
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+
+}
+
+.inner-card .card-description p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+/* club section end */
+
+/* highlights section */
+
+.highlights{
+    margin-top: 165px;
+    display: flex;
+}
+.highlight{
+    width: 50%;
+    margin-top: 59px;
+    margin-right: 66px;
+    margin-left: 182px;
+    
+}
+.highlights-info{
+    width: 469px;
+    height: 309px;
+}
+
+.highlights-info .highlights-details{
+    width: 469px;
+    height: 241px;
+}
+
+.highlights-details .highlights-title{
+    width: 469px;
+    height: 120px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #0A0826;
+    margin-bottom: 30px;
+}
+.highlights-details .highlights-description p{
+    width: 404px;
+    height: 113px;
+    color: #6C6C6C;
+    font-size: 16px;
+}
+.highlights-button .watch-button{
+    margin-top: 24px;
+    width: 172px;
+    height: 44px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-button span{
+    margin-right: 8px;
+}
+.highlights-image{
+    width: 50%;
+    margin-right: 156px;
+}
+.highlight-image img{
+    width: 567px;
+height: 427px;
+}
+
+/* highlights section end */
+
+
+
+/* rank section */
+.ranking{
+    width: 100%;
+    height: auto;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.ranking-info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.ranking-info .ranking-details{
+    width: 70%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.ranking-info .ranking-title{
+    font-size: 35px;
+    color: #0A0826;
+    font-weight: bold;
+}
+.ranking-description p{
+    color: #6C6C6C;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.ranking-men{
+    width: 35%;
+}
+.men-table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px ;
+}
+.men-table table{
+    width: 80%;
+}
+.men-table img{
+    width: 70px;
+}
+.men-table .map-info{
+    width: 200px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.men-table .map-info img{
+    margin-right: 20px;
+}
+
+.women-table{
+    margin-left: 50px;
+}
+
+thead tr th{
+    font-size: 14px;
+    font-weight: 200px;
+}
+tbody tr p{
+    font-size: 18px;
+}
+
+/* rank section end*/
+
+
+
+
+
+/* live section */
+.live{
+    margin-top: 165px;
+}
+.live video{
+    width: 1050px;
+    height: 550px;
+}
+
+/* live section end */
+
+footer{
+    width: 100%;
+    height: 60vh;
+}
